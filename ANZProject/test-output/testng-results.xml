@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="28643" started-at="2022-05-28T11:11:22 IST" finished-at="2022-05-28T11:11:50 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="28643" started-at="2022-05-28T11:11:22 IST" finished-at="2022-05-28T11:11:50 IST">
+      <class name="Home">
+        <test-method status="PASS" signature="init(java.lang.String,java.lang.String)[pri:0, instance:Home@5fdba6f9]" name="init" is-config="true" duration-ms="9495" started-at="2022-05-28T11:11:22 IST" finished-at="2022-05-28T11:11:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="homePagevalidation()[pri:0, instance:Home@5fdba6f9]" name="homePagevalidation" duration-ms="18196" started-at="2022-05-28T11:11:31 IST" finished-at="2022-05-28T11:11:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePagevalidation -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:Home@5fdba6f9]" name="quit" is-config="true" duration-ms="889" started-at="2022-05-28T11:11:49 IST" finished-at="2022-05-28T11:11:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- Home -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
